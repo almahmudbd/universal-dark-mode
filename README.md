@@ -19,4 +19,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 Inspired by the work of [C.J. Bayliss](https://gist.github.com/cjbayliss/258b409395702efaba3a0a9794c6cea0).
 
 ## License
-Licensed under the [GPL-2.0 License](https://opensource.org/licenses/GPL-2.0).
+Licensed under the [GPL-3.0 License](https://opensource.org/licenses/GPL-3.0).
