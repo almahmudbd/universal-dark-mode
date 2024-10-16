@@ -9,8 +9,8 @@
 // @license     GPL-2.0
 // @run-at      document-start
 // @namespace https://greasyfork.org/users/1238578
-// @downloadURL https://update.greasyfork.org/scripts/512895/Chrome-like%20Dark%20Mode.user.js
-// @updateURL https://update.greasyfork.org/scripts/512895/Chrome-like%20Dark%20Mode.meta.js
+// @downloadURL https://update.greasyfork.org/scripts/512895/Universal%20Dark%20Mode%202%20%28Chrome-like%29.user.js
+// @updateURL https://update.greasyfork.org/scripts/512895/Universal%20Dark%20Mode%202%20%28Chrome-like%29.user.js
 // ==/UserScript==
 
 const setDarkModeCookie = (value) => {
