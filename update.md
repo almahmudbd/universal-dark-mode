@@ -8,6 +8,10 @@ Universal Dark Mode 2 (Chrome-like) is a userscript that transforms websites int
 - **Adaptive Color Adjustment**: Dynamically modifies colors based on the existing styles of the webpage for optimal visibility.
 - **User-Friendly Design**: Minimal flicker and smooth transitions for a seamless browsing experience.
 
+## Similar Script
+In addition to the Chrome-like dark mode, check out the **Universal Dark Mode 3 (Gray-Blue)** script for a lighter, gray-blue dark mode experience. This script offers enhanced readability with adjusted colors tailored for a softer visual impact, making it ideal for extended browsing sessions. 
+You can find it here: [Universal Dark Mode 3 (Gray-Blue) on GreasyFork](https://greasyfork.org/en/scripts/512897-universal-dark-mode-3-gray-blue).
+
 ## Installation
 To install the script, follow these steps:
 
