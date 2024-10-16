@@ -1,16 +1,20 @@
 // ==UserScript==
-// @name        Chrome-like Uni-Dark Mode
+// @name        Chrome-like Dark Mode
 // @match       *://*/*
 // @grant       none
 // @version     1.5
-// @author      cjb
+// @author      almahmud & gpt
+// @homepageURL    https://github.com/almahmudbd/universal-dark-mode
 // @description Chrome-like dark mode with adjusted colors for better readability.
+// @license     GPL-2.0
 // @run-at      document-start
-
+// @namespace https://greasyfork.org/users/1238578
+// @downloadURL https://update.greasyfork.org/scripts/512895/Chrome-like%20Dark%20Mode.user.js
+// @updateURL https://update.greasyfork.org/scripts/512895/Chrome-like%20Dark%20Mode.meta.js
 // ==/UserScript==
 
 const setDarkModeCookie = (value) => {
-    document.cookie = `darkMode=${value}; path=/; max-age=31536000`; // 1 year expiration
+    document.cookie = `darkMode=${value}; path=/; max-age=2592000`; // 1 month expiration
 };
 
 const getDarkModeCookie = () => {
@@ -35,7 +39,7 @@ const applyDarkModeStyles = () => {
         }
 
         // Change text color to white
-        element.style.color = "#ffffff";
+        element.style.color = "#ffffff"; 
     });
 };
 
@@ -49,12 +53,12 @@ const adjustColors = () => {
     const elements = document.querySelectorAll("*");
     elements.forEach((element) => {
         const computedStyle = window.getComputedStyle(element);
-
-        if (computedStyle.backgroundColor !== "rgba(0, 0, 0, 0)" &&
+        
+        if (computedStyle.backgroundColor !== "rgba(0, 0, 0, 0)" && 
             computedStyle.backgroundColor !== "transparent") {
             element.style.backgroundColor = "#263238"; // Dark grey-blue for background
         }
-
+        
         element.style.color = "#ffffff"; // White text color
     });
 };
