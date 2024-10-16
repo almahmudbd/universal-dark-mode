@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Chrome-like Dark Mode
+// @name        Universal Dark Mode 2 (Chrome-like)
 // @match       *://*/*
 // @grant       none
 // @version     1.5
