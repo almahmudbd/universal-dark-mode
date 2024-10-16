@@ -1,4 +1,4 @@
-# Universal Dark Mode
+# Universal Dark Mode userscripts
 
 ## Overview
 Universal Dark Mode offers two styles of dark mode userscripts for enhanced readability across all websites:
