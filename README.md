@@ -9,7 +9,7 @@ Universal Dark Mode offers two styles of dark mode userscripts for enhanced read
 
 ## Installation
 1. Install a userscript manager like [Tampermonkey](https://www.tampermonkey.net/) or [Greasemonkey](https://www.greasespot.net/).
-2. Create a new script and replace the default code with the code from the respective script links above.
+2. Create a new script and replace the default code with the code from the respective script links above, maybe you can install directly too.
 3. Save the script to activate dark mode.
 
 ## Contributing
